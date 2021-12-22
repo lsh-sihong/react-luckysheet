@@ -80,14 +80,6 @@ const Inner = (props) => {
         init();
       }
     }
-    if (props.options && !props.options.allowCopy) {
-      document.addEventListener('copy', () => {
-        const arr = refs.current.getRange()
-        refs.current.enterEditMode();
-        refs.current.exitEditMode();
-        refs.current.setRangeShow(arr)
-      });
-    }
   }, []);
   useEffect(() => {
     if (refs && refs.current) {

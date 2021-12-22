@@ -10,7 +10,7 @@
 ## 安装
 
 ```
-npm i @dzc/react-luckysheet
+npm i react-luckysheet
 ```
 ## API
 
@@ -18,7 +18,7 @@ npm i @dzc/react-luckysheet
 | --- | --- | --- | --- | --- |
 | id | 声明需要渲染的目标ID | string | - | - |
 | style | 样式 | object | {widht:'100%',height:700} | - |
-| options | 配置，已实现allowCopy：false | object | {widht:'100%',height:700} | - |
+| options | 配置，已实现allowCopy：false | object | - | - |
 | ref | 全局变量luckysheet绑定 | object | - | - |
 
 

@@ -1,11 +1,11 @@
 {
-  "name": "@dzc/react-luckysheet",
+  "name": "sh-react-luckysheet",
   "version": "1.0.0",
   "description": "基于luckysheet的react组件",
   "keywords": [
     "excel",
     "react-luckysheet",
-    "@dzc/react-luckysheet"
+    "react-luckysheet"
   ],
   "main": "dist/bundle.js",
   "files": [
